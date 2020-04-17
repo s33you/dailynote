@@ -1,4 +1,5 @@
 const path = require('path')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 function resolve (dir) {
   return path.join(__dirname, dir)
 }
@@ -28,5 +29,6 @@ module.exports = {
     config.resolve.alias.set('@', resolve('src'))
       .set('@assets', resolve('src/assets'))
       .set('@components', resolve('src/components'))
+    config.plugin('clean').use(new CleanWebpackPlugin())
   }
 }

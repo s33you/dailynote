@@ -1,6 +1,6 @@
 const api = {
     development:'http://192.168.1.6:3000',
-    production:'',
+    production:'http://192.168.1.6:3000',
     mock:'',
     test:''
 }
