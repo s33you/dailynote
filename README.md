@@ -24,11 +24,6 @@ dailynote/
 
 
 
-### Demo展示
-没钱买服务器,录了个屏，贫穷的气息🥺  
-
-[哔哩哔哩](https://www.bilibili.com/video/BV1xt4y127zR)
-
 ### ToDOList
 - 对于不支持devicemotion事件的设备，响应式的提供左右切换按钮
 
